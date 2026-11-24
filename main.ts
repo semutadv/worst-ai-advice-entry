@@ -8,7 +8,7 @@ import { mkdirSync, readdirSync, rmSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
 
 const ADVICE_TEXT =
-  "If your code works on the first try, never test it — testing only finds problems, and a problem you don't know about can't ruin your weekend.";
+  "If your code works on the first try, never test it — testing finds problems, and a problem you don't know about can't ruin your weekend.";
 
 function prepareOutputDir(dir: string): void {
   mkdirSync(dir, { recursive: true });
